@@ -6,7 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 import javax.naming.Name;
 import java.util.List;
 
-public interface PersonRepository extends CrudRepository<Person, Name> {
+public interface PersonRepository {//extends CrudRepository<Person, Name> {
 
     // additional custom finder methods go here
 

@@ -9,8 +9,8 @@ import javax.naming.Name;
  * https://github.com/spring-projects/spring-data-examples/blob/master/ldap/example/src/main/java/example/springdata/ldap/Person.java
  */
 //@Entry(base = "ou=people,dc=springframework,dc=org", objectClasses = "inetOrgPerson")
-@Entry(objectClasses = { "person", "top" }, base="ou=someOu")
-@Data
+//@Entry(objectClasses = { "person", "top" }, base="ou=someOu")
+//@Data
 public class Person {
 
     @Id
